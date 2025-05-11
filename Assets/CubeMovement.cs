@@ -109,13 +109,13 @@ public class CubeMovement : MonoBehaviour
     private void HandleCameraRotation()
     {
         // Rotate camera left when Q is pressed
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.E))
         {
             mainCamera.transform.RotateAround(transform.position, Vector3.up, rotationSpeed * Time.deltaTime);
         }
         
         // Rotate camera right when E is pressed
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.Q))
         {
             mainCamera.transform.RotateAround(transform.position, Vector3.up, -rotationSpeed * Time.deltaTime);
         }
