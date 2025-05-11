@@ -3,7 +3,7 @@ using UnityEngine;
 public class CubeMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float moveSpeed = 5.1f;
     [SerializeField] private float touchSensitivity = 0.1f;
     
     [Header("Camera Settings")]
